@@ -5,10 +5,22 @@
 // }
 // sum(2,5)
 // console.log(sum(2,5));
+// let person = {
+//     name : "Kamoliddin",
+//     age : 27,
+//     from : "Fergana"
+// }
+// console.log("Ism:",person.name,"manzil:",person.from);
+// console.log(person.age);
+// console.log(person["from"]);
 let person = {
     name : "Kamoliddin",
     age : 27,
-    from : "Fergana"
+    from : "Fergana",
+    laptop : {
+        brend : "HP",
+        ram : 12,
+        cup : "core 5"
+    }
 }
-console.log("Ism:",person.name,"manzil:",person.from);
-console.log(person.age);
+console.log(person.laptop.brend);
