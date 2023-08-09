@@ -27,9 +27,17 @@
 // console.log(++son1);
 // console.log(son1++);
 // console.log(++son1);
-let son1 = '30';
-let son2 = '30';
-console.log(son1==son2);
-console.log(son1===son2);
-console.log(son1!=son2);
-console.log(son1!==son2);
+// let son1 = '30';
+// let son2 = '30';
+// console.log(son1==son2);
+// console.log(son1===son2);
+// console.log(son1!=son2);
+// console.log(son1!==son2);
+// let son1 = 20;
+// let son2 = 5;
+// // son1+=son2
+// // son1-=son2
+// // son1*=son2
+// // son1/=son2
+// son1%=son2
+// console.log(son1);
