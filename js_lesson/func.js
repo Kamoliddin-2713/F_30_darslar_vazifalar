@@ -13,14 +13,16 @@
 // console.log("Ism:",person.name,"manzil:",person.from);
 // console.log(person.age);
 // console.log(person["from"]);
-let person = {
-    name : "Kamoliddin",
-    age : 27,
-    from : "Fergana",
-    laptop : {
-        brend : "HP",
-        ram : 12,
-        cup : "core 5"
-    }
-}
-console.log(person.laptop.brend);
+// let person = {
+//     name : "Kamoliddin",
+//     age : 27,
+//     from : "Fergana",
+//     laptop : {
+//         brend : "HP",
+//         ram : 12,
+//         cup : "core 5"
+//     }
+// }
+// console.log(person.laptop.brend);
+let notebooks = ["Acer","Asus","HP","Lenovo"]
+console.log(typeof notebooks);
