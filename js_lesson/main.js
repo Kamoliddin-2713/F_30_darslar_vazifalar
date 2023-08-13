@@ -79,3 +79,15 @@
 // console.log(`a * b = ${a*b} `);
 // console.log(`a / b = ${a/b} `);
 // console.log(`a % b = ${a%b} `);
+let person = {
+    ism: "Nodir",
+    age : 28,
+    from : "Tashkent",
+    salary : 4000000,
+    t:100
+}
+
+console.log(person);
+console.log(`
+Ism : ${person.ism},
+oyligi : ${person.salary}`);
