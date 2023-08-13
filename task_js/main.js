@@ -66,9 +66,26 @@
 // `,'Kvadrat yuzi:',Math.pow(`${y}`,2));
 
 // 11.	To’g’rito’rtburchakning tomonlari A va B berilgan. Uning yuzasi S = a*b va perimetri P = 2*(a+b) ni hisoblang.
-
 // let a = +prompt('A tamoni kiriting:')
 // let b = +prompt('B tamoni kiriting:')
 // console.log(` Tamonlari ${a} va ${b} bo'lgan to'g'ri  to'rtburchak
 // `,`Parametri: ${2*(a+b)}`,`
 //  Yuzi:${a*b}`);
+
+// 12.	Diametr D berilgan. Uning uzunligi L=pi*d  ni hisoblang. Pi ni 3.14 hisoblang.
+// let d = +prompt("Diometrni kiriting:")
+// console.log(`L uzunig teng`,Math.PI*(`${d}`));
+
+// 13.	Kub tomon a  berilgan. Kubning hajmi topilsin   va uning maydoni topilsin
+// let a = +prompt("Kub tamonini kiriting:")
+// console.log(`Tomoni ${a} bolgan kub
+// Hajmi:${Math.pow(a,3)}
+// Yuzi:${Math.pow(a,2)*6}`);
+
+// 14.	Parallipipedning tomonlari a,b,c berilgan. Uning hajmini   va yuzasi   topilsin
+// let a = +prompt('A ni kiriting:')
+// let b = +prompt('B ni kiriting:')
+// let c = +prompt('C ni kiriting:')
+// console.log(`Tomonlari A=${a},B=${b},C=${c} bo'lgan paralapedning
+// Hajmi:${a*b*c}
+// Yuzi:${2*(a*b+a*c+c*b)}`);
