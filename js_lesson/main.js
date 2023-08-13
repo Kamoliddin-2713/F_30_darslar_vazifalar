@@ -60,3 +60,22 @@
 //     yosh:25
 // }]
 // console.log(t);
+// let a = 5
+// let b = 6
+
+// console.log(a + b);
+// c = a + b
+// console.log(c);
+// c = a-b
+// console.log(c);
+// console.log(a*b);
+// console.log(b/a);
+// let a = 25
+// let b = 10
+// console.log(`a = ${a}`);
+// console.log(`b = ${b}`);
+// console.log(`a + b = ${a+b} `);
+// console.log(`a - b = ${a-b} `);
+// console.log(`a * b = ${a*b} `);
+// console.log(`a / b = ${a/b} `);
+// console.log(`a % b = ${a%b} `);
