@@ -171,3 +171,30 @@
 // else {
 //     console.log('xatolik boldi');
 // }
+// let x = +prompt('x ga qiymat bering')
+
+// let f = 'Son kiriting'
+
+// if (x <= 0){
+//     f=x
+// }
+//  if (0 < x && x < 2){
+//     // f = Math.pow(x,2)
+//     // f = x*x
+//     f = x**2
+//  }
+//  if (x >= 2){
+//     f = 4
+//  }
+//  console.log(f);
+let a = Math.ceil(Math.random() * 10)
+console.log(a);
+let b = null
+// if (a % 2 == 0){
+//     b = 7
+// } else {
+//     b = -9
+// }
+b = a % 2 == 0 ? 7 : -9 // Ternariy opertor
+
+console.log(b);
