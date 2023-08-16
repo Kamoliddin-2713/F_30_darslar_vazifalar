@@ -239,3 +239,40 @@
 //     default :
 //     console.log("Bunday valyuta yo`q");
 // }
+// let a = 2
+// // a = a+1
+// // a+=1
+// // a-=1
+
+// // console.log(a++);
+// console.log(a);
+// let a = prompt('Qiymat kiriting')
+// alert('Salom')
+// console.log(`${a}`);
+// let c = confirm('Salom ketdik')
+// console.log(c);
+// console.log(`${c}`);
+// console.log(confirm('Salom,ketdikmi?')
+// ? '19:00 da korishamiz'
+// : 'Biz ketdik');
+// let a = prompt('Matin kiriting:')
+// document.write(`<h1>${a}</h1>`)
+// document.write('Salom')
+// document.write('Salom')
+// let summa = 0
+// for(let n = 1 ; n <= 10; n++ ){
+//     if (n % 2 == 0 ){
+//         summa+=n
+//         console.log(n)
+//     }
+//     // console.log(summa);
+// }
+
+// console.log(summa);
+// for(let n = 1; n <= 10; n+=0.1){
+//     console.log(n.toFixed(1));
+// }
+// let n = 1
+// while (n<=7){
+//     console.log(n);
+// }
