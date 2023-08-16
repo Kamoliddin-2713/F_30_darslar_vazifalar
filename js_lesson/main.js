@@ -272,8 +272,17 @@
 // for(let n = 1; n <= 10; n+=0.1){
 //     console.log(n.toFixed(1));
 // }
-let n = 1
-while (n <= 7){
-    console.log(n);
-    ++n
-}
+// let n = 1
+// while (n <= 7){
+//     console.log(n);
+//     ++n
+// }
+// let n = 1
+// while (true) {
+//     console.log(n);
+//     if ( n == 100){
+//         break
+//     }
+
+//     ++n
+// }
