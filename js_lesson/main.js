@@ -206,3 +206,22 @@
 //                     : til == 'en' ? 'hello'
 //                         : 'meniki senikini tushunmadi'
 // console.log(javob);
+// let til = prompt('Til kiriting')
+// console.log(til == 'uz'? 'Salom'
+//     : til == 'ru' ? 'Привет'
+//         : til == 'en' ? 'Hello'
+//             :'Meniki siznikini tushunmadi');
+// let valyuta = prompt("Valyutani kiriting:")
+// if (valyuta == 'uz'){
+//     console.log("So`m");
+// } else if (valyuta == "ru"){
+//     console.log("rubl");
+// } else if (valyuta == "use"){
+//     console.log("dollar");
+// }else{
+//     console.log("Bunday valyuta yo`q");
+// }
+// console.log(valyuta == 'uz' ? 'so`m' :
+//                 valyuta == 'ru' ? 'rubl' :
+//                     valyuta == 'use' ? 'dollar'
+//                         : 'bunday valyuta yoq');
