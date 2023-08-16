@@ -127,3 +127,47 @@
 // let a = +prompt('a ni kiritig:')
 // let b = +prompt('b ni kiriting')
 // console.log(`a va b ni orta arifmetigi ${(a+b)/2}`);
+
+// let a = +prompt("A ni kiriting")
+// switch(a){
+//     case 0:console.log("A son 0 ga teng");
+//     // break;
+//     case 5: console.log('A son musbat');
+//     break;
+//     // case a<0: console.log('A son manfiy');
+//     // break;
+//     // default: console.log('Air');
+// }
+// let a = +prompt('A ni kiriting:')
+// let b = +prompt('B ni kiriting:')
+// let c = +prompt('C ni kiriting:')
+// console.log(`a = ${a}\nb = ${b}\nc = ${c}`);
+// if (a<c && b<c){
+//     console.log(`ha`);
+// }
+// else {
+//     console.log('yoq');}
+
+// let til = prompt('Til kiriting:')
+// if ( til == "uz"||til=="UZ"||til=="Uz"||til=="uZ") {
+//     console.log('Assalom aleykum');
+// } else if (til == "ru") {
+//     console.log('Здрстувте');
+// } else if (til == "en") {
+//     console.log('Good morning');
+// } else if (til == "jp") {
+//     console.log('Kanechuva');
+// } else {console.log('Natogri');}
+// let a = prompt("Qiymat kiriting")
+// // if (a == "error"){
+// //     console.log("Xatolik");
+// // }
+// // else {
+// //     console.log("loading...");
+// // }
+// if (a !== "error"){
+//     console.log("loading...");
+// }
+// else {
+//     console.log('xatolik boldi');
+// }

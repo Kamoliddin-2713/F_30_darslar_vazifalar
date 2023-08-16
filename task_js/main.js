@@ -29,21 +29,21 @@
 // `);
 
 // 6-savol .Do’kondan n kg nok, s kg sabzi, b kg bodring sotib olib umumiy narhni konsolga chiqaring.
-// let n = +prompt("Dokonimizda 1 kg nok 5000 so'm.Siz necha kilo olasiz?:")
-// let s = +prompt("Dokonimizda 1 kg sabzi 2000 so'm.Siz necha kilo olasiz?:")
-// let b = +prompt("Dokonimizda 1 kg bodring 1000 so'm.Siz necha kilo olasiz?:")
-// const formatter = new Intl.NumberFormat('en-UZ', {
-//     style: 'currency',
-//     currency: 'UZB',
-//     // These options are needed to round to whole numbers if that's what you want.
-//     //minimumFractionDigits: 0, // (this suffices for whole numbers, but will print 2500.10 as $2,500.1)
-//     //maximumFractionDigits: 0, // (causes 2500.99 to be printed as $2,501)
-//   });
-// console.log(`
-// Siz ${n} kg nok oldingiz jami: ${n*5000} so'm
-// Siz ${s} kg sabzi oldingiz jami: ${s*2000} so'm
-// Siz ${b} kg bodring oldingiz jami: ${b*1000} so'm`,
-// 'Sizdan jami:',formatter.format(`${n*5000+s*2000+b*1000}`),"so'm");
+let n = +prompt("Dokonimizda 1 kg nok 5000 so'm.Siz necha kilo olasiz?:")
+let s = +prompt("Dokonimizda 1 kg sabzi 2000 so'm.Siz necha kilo olasiz?:")
+let b = +prompt("Dokonimizda 1 kg bodring 1000 so'm.Siz necha kilo olasiz?:")
+const formatter = new Intl.NumberFormat('en-UZ', {
+    style: 'currency',
+    currency: 'UZB',
+    // These options are needed to round to whole numbers if that's what you want.
+    //minimumFractionDigits: 0, // (this suffices for whole numbers, but will print 2500.10 as $2,500.1)
+    //maximumFractionDigits: 0, // (causes 2500.99 to be printed as $2,501)
+  });
+console.log(`
+Siz ${n} kg nok oldingiz jami: ${n*5000} so'm
+Siz ${s} kg sabzi oldingiz jami: ${s*2000} so'm
+Siz ${b} kg bodring oldingiz jami: ${b*1000} so'm`,
+'Sizdan jami:',formatter.format(`${n*5000+s*2000+b*1000}`),"so'm");
 
 // 7-savol.	A va B sonlar berilgan ularning o’rtacha qiymatini hisoblang.
 // let a = +prompt('A sonni kiriting: ')
