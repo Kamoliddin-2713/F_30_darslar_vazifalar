@@ -225,3 +225,17 @@
 //                 valyuta == 'ru' ? 'rubl' :
 //                     valyuta == 'use' ? 'dollar'
 //                         : 'bunday valyuta yoq');
+// let valyuta = prompt("Valyutani kiriting:")
+// switch(valyuta) {
+//     case 'uz':
+//         console.log("So`m");
+//     break
+//     case 'ru':
+//         console.log("rubl");
+//     break
+//     case 'en':
+//         console.log('funt sterling');
+//     break
+//     default :
+//     console.log("Bunday valyuta yo`q");
+// }
