@@ -187,14 +187,22 @@
 //     f = 4
 //  }
 //  console.log(f);
-let a = Math.ceil(Math.random() * 10)
-console.log(a);
-let b = null
-// if (a % 2 == 0){
-//     b = 7
-// } else {
-//     b = -9
-// }
-b = a % 2 == 0 ? 7 : -9 // Ternariy opertor
+// let a = Math.ceil(Math.random() * 10)
+// console.log(a);
+// let b = null
+// // if (a % 2 == 0){
+// //     b = 7
+// // } else {
+// //     b = -9
+// // }
+// // b = a % 2 == 0 ? 7 : -9 // Ternariy opertor
+// let c = a * 3 > 20 ? 'ha' : 'yoq'
 
-console.log(b);
+// console.log(c);
+
+// let til = prompt('Til kiriting')
+// let javob = til == 'uz'? 'Salom'
+//                 : til == 'ru' ? 'привет'
+//                     : til == 'en' ? 'hello'
+//                         : 'meniki senikini tushunmadi'
+// console.log(javob);
