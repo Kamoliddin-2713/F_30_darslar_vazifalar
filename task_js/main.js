@@ -99,3 +99,60 @@
 // let b = +prompt('b ni qiymatni kiriting:')
 // console.log(`a = ${a}\nb = ${b}\n(a+b)/2 = ${(a+b)/2}`);
 // document.write(`<h1>A ni qiymati a = ${a}<br>B ni qiymat b = ${b}<br> Orta arfmetik (a+b)/2 = ${(a+b)/2}</h1>`)
+
+// 17.	A va B berilgan. Ularning o’rta geometriyasini toping.
+// let a = +prompt('a ga qiymat kiriting:')
+// let b = +prompt('b ga qiymat kiriting:')
+// c = Math.sqrt(a+b)
+// console.log("O`rta giometrik a va b ni = ",c);
+// document.write(`<h1><mark>a teng = ${a}</mark></h1> <br><h2><mark> b teng = ${b}</mark></h2> <br><h3><mark>(a+b)<sup>1/2</sup> = ${(Math.sqrt(a+b))}</mark></h3> `)
+
+//18.  A va B berilgan. Ularning yig’indisi, ayirmasi, ko’paytmasi va o’zaro qoldiqi topilsin
+
+// let a = +prompt("a ni kiriting:")
+// let b = +prompt("b ni kiriting:")
+// c = a + b
+// d = a - b
+// n = a * b
+// m = a % b
+// console.log('a + b = ',c,"\na - b = ",d,"\na * b = ",n,"\na % b = ",m);
+
+// document.write('<b>a + b = ',`${c}<br>`,"a - b = ",`${d}<br>`,"a * b = ",`${n}<br>`,"a % b = ",`${m}</b>`)
+
+//19. Tog`ri burchakli Uchburchakning a va b tomoni berilgan. Uchburchakning 3-tomoni c ni toping va perimetrini Parametrni toping:
+// let a = +prompt('a tomoni')
+// let b = +prompt('b tomoni')
+// c = Math.sqrt(a**2+b**2)
+// p = a + b + c
+// console.log(`c tomoni = ${c}\nparametri p = a+b+c = ${p}`);
+// document.write(`Uchburchakning c tomoni = ${c}<br>Uchburchak parametri = ${a + b + c}`)
+
+// 20.	 Aylaning yuzi S berilgan. Diametri D va uzunligi L topilsin.
+
+// let s = +prompt('S yuzi kiritilsin:')
+// d = Math.sqrt(s)*2
+// l = d*Math.PI
+// console.log("Diometri",d,"\nuzunligi",l);
+
+// 21.	 X va Y nuqtalar berilgan. Ularning orasidagi masofa topilsin. | X – Y |
+// let a = +prompt('a ni kiriting:')
+// let b = +prompt('b ni kiriting:')
+// c = Math.abs(a - b)
+// console.log(` a = ${a}\n b = ${b}`,"\n|a - b| = ",c);
+// document.write(`a teng = ${a}<br>b teng = ${b}<br>|a - b| = ${c}`)
+
+//22.  (x1,y1) va (x2,y2)  koordinatalar berilgan. Nuqtalar orasidagi masofani aniqlang.
+
+// let x1 = +prompt('x1 ni kiriting:')
+// let y1 = +prompt('y1 ni kiriting')
+// let x2 = +prompt('x2 ni kiriting:')
+// let y2 = +prompt('y2 ni kiriting:')
+// c = Math.sqrt(Math.pow(x1-y1,2)+Math.pow(x2-y2,2))
+// console.log(c);
+
+// 23.	 A va B lar berilgan bo’lib, ularning qiymatlari almashtirilib yangi A va B chop etilsin
+
+// let a = prompt('a ni kiriting')
+// let b = prompt('b ni kiriting')
+
+// console.log(`a teng = ${a}\nb teng = ${b}`,"\na teng = ",a.replace(`${a}`,`${b}`),"\nb teng = ",b.replace(`${b}`,`${a}`));
